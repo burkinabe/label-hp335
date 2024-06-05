@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="2125" pageHeight="2834" columnWidth="2085" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5c0fd3f2-c809-40b1-b40e-77e02b8d3163">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="immatriculation1" class="java.lang.String"/>
+	<field name="immatriculation2" class="java.lang.String"/>
+	<field name="logoRm" class="java.awt.Image"/>
+	<field name="transparentLogoRm" class="java.awt.Image"/>
+	<detail>
+		<band height="301" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="3" width="1009" height="283" uuid="86a7230e-0fc6-4f8c-b253-0e8c0b8b2530">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="10.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="1070" y="3" width="1009" height="283" uuid="6381dfd0-f54c-453b-9c4b-de978dd43839">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="10.0"/>
+				</graphicElement>
+			</rectangle>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Transparent" x="10" y="90" width="120" height="110" uuid="f6fc962a-b2d1-4590-8a51-ee08f4d2462b"/>
+				<imageExpression><![CDATA[$F{logoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="216" y="27" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="7beed9f8-c3f4-48d5-91e7-1d6902b48161"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="220" y="117" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="f7c0f382-1eb5-4ec4-afe9-9d0841e223b7"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="220" y="206" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="5d52ef30-133b-4315-ba07-d14bbe8f263e"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="424" y="206" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="97c9539c-1f75-46b0-a228-f885f88b7da7"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="424" y="117" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="426c6479-4a82-4549-aeb7-a825be7bee9e"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="420" y="27" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="c71b7100-dab5-4420-a68c-0b129d89c668"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="604" y="206" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="80f5a5ef-ccd6-47e6-8427-98b2c96af9d9"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="604" y="117" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="2ce53b7f-bcf1-4bd0-969b-027ff25a665c"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="600" y="27" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="2005cc64-0f96-4b00-ab06-8104907888d9"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="794" y="206" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="539fc384-510f-4394-a7c5-50cd6152ebbe"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="794" y="117" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="dfc749e2-49cf-40d0-843d-51e9f95efceb"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="790" y="27" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="fbc7837c-5930-4a0e-8e0b-10ff7b142add"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Transparent" x="1090" y="95" width="120" height="110" uuid="dfee9682-7ac5-49f4-8bb2-6dfd9e4f34d2"/>
+				<imageExpression><![CDATA[$F{logoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1300" y="124" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="6f7c9476-1c71-4b73-8f27-39af1f31f36f"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1296" y="34" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="78b99d02-a4f0-4319-a1f7-3b9c7918276a"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1300" y="213" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="e658658c-4eaf-41dd-90d9-3f747892dd36"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1504" y="213" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="f7380d6b-cafd-4d86-a4eb-d589bf993747"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1504" y="124" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="5cb7b96c-862e-4b59-81f6-ec509001c2ed"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1500" y="34" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="aa53a6f7-08bf-4ae1-bc9e-2cbdc0d860da"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1680" y="34" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="7ae66e9f-a4ce-48b2-9c4b-5cc87a093434"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1684" y="124" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="17a7a20e-4a07-46ae-8d25-89aaf972414c"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1684" y="213" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="cdd61b79-1e5e-4243-a6bc-984ea08f2753"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1870" y="34" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="786fc866-7e9d-4747-a406-8e17fda341f7"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1874" y="124" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="0d33a3c4-a831-4d0b-9591-25169251c8c6"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Opaque" x="1874" y="213" width="44" height="43" backcolor="rgba(179, 219, 238, 0.0)" uuid="de5f9608-64c8-4bae-b3b0-2e8c6df06751"/>
+				<imageExpression><![CDATA[$F{transparentLogoRm}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="1230" y="77" width="688" height="160" uuid="25ca4780-ef2c-4931-aaf3-707c16ec740f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="100"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{immatriculation2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="70" width="684" height="160" uuid="3676dfb1-1404-4158-b744-f85dd15471ff"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="100"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{immatriculation1}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Transparent" x="1940" y="95" width="120" height="110" uuid="bff2574d-a8dd-4d87-9a95-ffec0feeaabc"/>
+				<imageExpression><![CDATA[$F{logoRm}]]></imageExpression>
+			</image>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement mode="Transparent" x="870" y="90" width="120" height="110" uuid="bac6f2ec-6134-4895-9c9b-313bfadd1d14"/>
+				<imageExpression><![CDATA[$F{logoRm}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>
